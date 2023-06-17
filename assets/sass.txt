@@ -1,0 +1,1 @@
+sass --watch C:\Users\ThemeGenix\Desktop\eduvalt-html\assets\scss\main.scss:C:\Users\ThemeGenix\Desktop\eduvalt-html\assets\css\main.css
