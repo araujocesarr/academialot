@@ -101,6 +101,15 @@ img,
   transition: all 0.3s ease-out 0s;
 }
 
+#header {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 10%;
+}
+
 a,
 button {
   color: var(--tg-theme-primary);
@@ -1078,7 +1087,7 @@ textarea {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
 }
 @media (max-width: 991.98px) {
   .tgmenu__nav {
@@ -3128,6 +3137,7 @@ textarea {
   transform: translateY(-7px);
 }
 .about-area-two {
+  background-color: rgba(250, 231, 231, 0.295);
   padding: 140px 0;
 }
 @media (max-width: 991.98px) {
