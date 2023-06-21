@@ -27,13 +27,16 @@
       }
       & li {
         @include flexbox();
-        align-items: center;
+        align-items: flex-start;
         color: #e6eaef;
         gap: 7px;
         &:not(:last-child)::after {
           content: "|";
           margin-left: 7px;
           opacity: 0.5;
+        }
+        & span {
+          font-size: 12px;
         }
         & i {
           color: var(--tg-common-color-white);
@@ -269,7 +272,7 @@
             }
             &:hover > a,
             &.active > a {
-              color: red;
+              color: #f9d451;
             }
             &:hover > a {
               @include transform(translateX(8px));
@@ -288,7 +291,7 @@
         & > a {
           &.active,
           &:hover {
-            color: red;
+            color: #f9d451;
           }
         }
       }
@@ -595,7 +598,7 @@
   }
 }
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
 }
 
 #header {
@@ -605,8 +608,7 @@
 .logo-header {
   position: absolute;
   left: 10%;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 80px;
 }
 .sticky-menu {
   position: fixed;
