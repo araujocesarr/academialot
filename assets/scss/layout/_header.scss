@@ -141,15 +141,15 @@
     & .tg-header__area {
       padding: 10px 0;
       @media #{$xl} {
-        padding: 0 0;
+        padding: 15px 0;
       }
       @media #{$lg} {
-        padding: 20px 0;
+        padding: 35px 0;
       }
       &.sticky-menu {
-        padding: 0 0;
+        padding: 15px 0;
         @media #{$lg} {
-          padding: 20px 0;
+          padding: 36px 0;
         }
       }
     }
@@ -608,7 +608,7 @@
 .logo-header {
   position: absolute;
   left: 10%;
-  max-width: 80px;
+  max-width: 115px;
 }
 .sticky-menu {
   position: fixed;

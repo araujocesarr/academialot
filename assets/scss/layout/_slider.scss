@@ -60,17 +60,17 @@
       }
     }
     & .title {
-      font-size: 48px;
+      font-size: 30px;
       margin: 0 0 30px;
       letter-spacing: -1px;
-      text-transform: capitalize;
+
       color: white;
       @media #{$xs} {
-        font-size: 38px;
+        font-size: 30px;
         margin: 0 0 20px;
       }
       @media #{$sm} {
-        font-size: 40px;
+        font-size: 26px;
         margin: 0 0 30px;
       }
       & span:not(.svg-icon) {
