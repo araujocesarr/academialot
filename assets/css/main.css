@@ -64,6 +64,7 @@
   --tg-common-color-dark: #061E43;
   --tg-common-color-black: #000;
 <<<<<<< HEAD
+<<<<<<< HEAD
   --tg-body-color: #39557e;
   --tg-heading-color: #3650a7;
   --tg-theme-primary: #1363df;
@@ -74,6 +75,8 @@
   --tg-border-4: #d7dce3;
   --tg-border-5: #2f466a;
 =======
+=======
+>>>>>>> 613bea9 (Structure to work)
   --tg-body-color: #39557E;
   --tg-heading-color: #082A5E;
   --tg-theme-primary: #1363DF;
@@ -83,6 +86,9 @@
   --tg-border-3: #E2E2E2;
   --tg-border-4: #D7DCE3;
   --tg-border-5: #2F466A;
+<<<<<<< HEAD
+>>>>>>> 613bea9 (Structure to work)
+=======
 >>>>>>> 613bea9 (Structure to work)
   --tg-fw-extra-bold: 800;
   --tg-fw-bold: 700;
@@ -858,8 +864,13 @@ textarea {
   display: -webkit-flex;
   display: flex;
 <<<<<<< HEAD
+<<<<<<< HEAD
   align-items: flex-start;
   color: #e6eaef;
+=======
+  align-items: center;
+  color: #E6EAEF;
+>>>>>>> 613bea9 (Structure to work)
 =======
   align-items: center;
   color: #E6EAEF;
@@ -1191,8 +1202,11 @@ textarea {
 }
 .tgmenu__navbar-wrap ul li .sub-menu li:hover > a, .tgmenu__navbar-wrap ul li .sub-menu li.active > a {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #f9d451;
 =======
+=======
+>>>>>>> 613bea9 (Structure to work)
   color: var(--tg-theme-primary);
 >>>>>>> 613bea9 (Structure to work)
 }
@@ -1209,9 +1223,12 @@ textarea {
   transform: scale(1);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tgmenu__navbar-wrap > ul > li > a.active, .tgmenu__navbar-wrap > ul > li > a:hover {
   color: #f9d451;
 =======
+=======
+>>>>>>> 613bea9 (Structure to work)
 .tgmenu__navbar-wrap > ul > li.active a, .tgmenu__navbar-wrap > ul > li:hover a {
   color: var(--tg-theme-primary);
 >>>>>>> 613bea9 (Structure to work)
@@ -2838,7 +2855,11 @@ textarea {
   display: flex;
   font-family: var(--tg-heading-font-family);
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: white;
+=======
+  color: #39557E;
+>>>>>>> 613bea9 (Structure to work)
 =======
   color: #39557E;
 >>>>>>> 613bea9 (Structure to work)
@@ -8655,7 +8676,11 @@ blockquote p {
 }
 .comment-form .comment-field input::placeholder, .comment-form .comment-field textarea::placeholder {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #5a7093;
+=======
+  color: #5A7093;
+>>>>>>> 613bea9 (Structure to work)
 =======
   color: #5A7093;
 >>>>>>> 613bea9 (Structure to work)
@@ -9435,7 +9460,11 @@ blockquote p {
 }
 .footer__newsletter form [type=email] {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: #10284f;
+=======
+  background: #10284F;
+>>>>>>> 613bea9 (Structure to work)
 =======
   background: #10284F;
 >>>>>>> 613bea9 (Structure to work)
