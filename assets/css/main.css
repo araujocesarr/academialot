@@ -847,7 +847,7 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  color: #E6EAEF;
+  color: #e6eaef;
   gap: 7px;
 }
 .tg-header__top-info li:not(:last-child)::after {
@@ -860,7 +860,7 @@ textarea {
   font-size: 20px;
 }
 .tg-header__top-info li a {
-  color: #E6EAEF;
+  color: #e6eaef;
 }
 .tg-header__top-info li a:hover {
   color: var(--tg-common-color-white);
@@ -889,10 +889,10 @@ textarea {
   }
 }
 .tg-header__top-social li {
-  color: #E7EFFC;
+  color: #e7effc;
 }
 .tg-header__top-social li a {
-  color: #E7EFFC;
+  color: #e7effc;
 }
 .tg-header__top-social li a:hover {
   color: var(--tg-common-color-white);
@@ -1191,20 +1191,6 @@ textarea {
 .tgmenu__main-menu li.menu-item-has-children .dropdown-btn {
   display: none;
 }
-.tgmenu__main-menu li.menu-item-has-children > a::after {
-  content: "\f107";
-  display: block;
-  font-family: "flaticon_eduvalt";
-  color: #5A7093;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
-  font-size: 12px;
-  font-weight: var(--tg-fw-bold);
-  margin-left: 6px;
-}
 .tgmenu__search {
   padding-right: 20px;
   position: relative;
@@ -1226,7 +1212,7 @@ textarea {
   transform: translateY(-50%);
   width: 2px;
   height: 30px;
-  background: #B2BDCD;
+  background: #b2bdcd;
 }
 .tgmenu__search-form {
   display: -webkit-box;
@@ -1317,7 +1303,7 @@ textarea {
   font-family: var(--tg-heading-font-family);
 }
 .tgmenu__search-form input::placeholder {
-  color: #8D9DB5;
+  color: #8d9db5;
   font-size: 14px;
 }
 .tgmenu__search-form [type=submit] {
@@ -1333,7 +1319,7 @@ textarea {
   padding: 0 0;
   background: transparent;
   font-size: 24px;
-  color: #8D9DB5;
+  color: #8d9db5;
 }
 .tgmenu__search-form [type=submit]:hover {
   color: var(--tg-theme-primary);
@@ -1375,7 +1361,7 @@ textarea {
   font-family: var(--tg-heading-font-family);
 }
 .tgmenu__search-bar form input::placeholder {
-  color: #8D9DB5;
+  color: #8d9db5;
   font-size: 14px;
 }
 .tgmenu__search-bar form [type=submit] {
@@ -1391,7 +1377,7 @@ textarea {
   padding: 0 0;
   background: transparent;
   font-size: 24px;
-  color: #8D9DB5;
+  color: #8d9db5;
 }
 .tgmenu__search-bar form [type=submit]:hover {
   color: var(--tg-theme-primary);
@@ -1478,7 +1464,7 @@ textarea {
   transform: translateY(-50%);
   width: 2px;
   height: 24px;
-  background: #B2BDCD;
+  background: #b2bdcd;
 }
 .tgmenu__action > ul .header-phone a {
   display: -webkit-box;
@@ -1515,7 +1501,7 @@ textarea {
   background: var(--tg-common-color-white);
   border: 1px solid var(--tg-border-2);
   font-weight: var(--tg-fw-medium);
-  color: #5A7093;
+  color: #5a7093;
   padding: 14px 21px;
 }
 .tgmenu__action > ul .header-btn.login-btn .btn:hover {
@@ -2845,6 +2831,7 @@ textarea {
     07. About
 ===============================*/
 .section-py-120 {
+  background-color: #f7f7f7;
   padding: 120px 0;
 }
 
@@ -7741,7 +7728,7 @@ textarea {
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
   bottom: 170px;
-  background: #FFE9F9;
+  background: #ffe9f9;
   filter: blur(200px);
   width: 423px;
   height: 423px;
@@ -7869,7 +7856,7 @@ textarea {
 }
 
 .blog__post-item-two {
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   padding: 20px;
@@ -7960,7 +7947,7 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   padding: 20px 40px 20px 20px;
@@ -8059,6 +8046,7 @@ textarea {
   color: var(--tg-theme-primary);
 }
 .blog-area-two {
+  background-color: #f7f7f7;
   position: relative;
 }
 .blog-area-two > .object {
@@ -8067,7 +8055,7 @@ textarea {
 }
 .blog__post-item-four {
   position: relative;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
   border-radius: 10px;
   padding: 12px;
@@ -8115,7 +8103,7 @@ textarea {
   border-radius: 8px 8px 0px 0px;
 }
 .blog__standard-content {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 0 0 8px 8px;
   padding: 30px 40px 40px;
@@ -8226,8 +8214,8 @@ textarea {
 }
 .blog-details-bottom {
   padding: 25px 0;
-  border-top: 1px solid #E6E6E6;
-  border-bottom: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
   margin: 40px 0 0;
   clear: both;
   overflow: hidden;
@@ -8309,8 +8297,8 @@ textarea {
   display: flex;
   align-items: center;
   gap: 30px;
-  background: #F8FAFF;
-  border: 1px solid #D5E4F4;
+  background: #f8faff;
+  border: 1px solid #d5e4f4;
   border-radius: 10px;
   padding: 40px;
   margin: 0 0 60px;
@@ -8349,7 +8337,7 @@ textarea {
 }
 
 blockquote {
-  background: #F1F8FF;
+  background: #f1f8ff;
   border-left: 6px solid var(--tg-theme-primary);
   padding: 45px 100px 45px 45px;
   font-size: 20px;
@@ -8379,7 +8367,7 @@ blockquote::after {
   font-weight: 700;
   line-height: 1;
   font-size: 60px;
-  color: #DAEAFA;
+  color: #daeafa;
   z-index: -1;
 }
 blockquote p {
@@ -8422,7 +8410,7 @@ blockquote p {
 }
 .tg-post-tag ul li a {
   display: block;
-  background: #E6F2FF;
+  background: #e6f2ff;
   border-radius: 4px;
   line-height: 1;
   padding: 10px 12px;
@@ -8514,7 +8502,7 @@ blockquote p {
   display: flex;
   padding: 0 0 40px;
   margin: 0 0 40px;
-  border-bottom: 1px solid #E6E9EC;
+  border-bottom: 1px solid #e6e9ec;
   gap: 28px;
 }
 @media (max-width: 767.98px) {
@@ -8565,7 +8553,7 @@ blockquote p {
 .comments-text .comment-reply-link {
   display: block;
   line-height: 1;
-  background: #F1F5FE;
+  background: #f1f5fe;
   border-radius: 4px;
   padding: 8px 19px;
   font-size: 15px;
@@ -8584,7 +8572,7 @@ blockquote p {
   margin: 0 0 28px;
 }
 .comment-form .row {
-  --bs-gutter-x: 20px ;
+  --bs-gutter-x: 20px;
 }
 .comment-form .comment-field {
   margin: 0 0 20px;
@@ -8592,13 +8580,13 @@ blockquote p {
 .comment-form .comment-field input, .comment-form .comment-field textarea {
   display: block;
   width: 100%;
-  background: #F0F6FC;
-  border: 1px solid #CDDBE9;
+  background: #f0f6fc;
+  border: 1px solid #cddbe9;
   border-radius: 4px;
   padding: 10px 20px;
 }
 .comment-form .comment-field input::placeholder, .comment-form .comment-field textarea::placeholder {
-  color: #5A7093;
+  color: #5a7093;
 }
 .comment-form .comment-field textarea {
   height: 130px;
@@ -8613,7 +8601,7 @@ blockquote p {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 .blog-grid-area .blog__post-content {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
   -webkit-border-radius: 0 0 10px 10px;
   -moz-border-radius: 0 0 10px 10px;
   -o-border-radius: 0 0 10px 10px;
@@ -8635,7 +8623,7 @@ blockquote p {
   }
 }
 .blog-widget {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
   margin: 0 0 30px;
@@ -8675,7 +8663,7 @@ blockquote p {
 }
 .blog-widget .form-check-input {
   border-radius: 4px;
-  border: 1px solid #B2BDCD;
+  border: 1px solid #b2bdcd;
   margin: 0 10px 0 0;
   width: 16px;
   height: 16px;
@@ -8720,7 +8708,7 @@ blockquote p {
   width: 100%;
   height: 55px;
   padding: 12px 50px 12px 25px;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
 }
@@ -8799,7 +8787,7 @@ blockquote p {
 }
 .tagcloud a {
   display: block;
-  background: #E6F2FF;
+  background: #e6f2ff;
   border-radius: 4px;
   line-height: 1;
   padding: 10px 12px;
@@ -8831,7 +8819,7 @@ blockquote p {
   justify-content: center;
   width: 45px;
   height: 45px;
-  background: #E7EFFC;
+  background: #e7effc;
   border-radius: 4px;
   font-size: 18px;
   color: var(--tg-heading-color);

@@ -1,1 +1,1 @@
-sass --watch C:\Users\ThemeGenix\Desktop\eduvalt-html\assets\scss\main.scss:C:\Users\ThemeGenix\Desktop\eduvalt-html\assets\css\main.css
+sass --watch /home/cesar/Programacion/academialot/assets/scss/main.scss:/home/cesar/Programacion/academialot/assets/css/main.css
