@@ -823,6 +823,12 @@ textarea {
   }
 }
 
+@media (max-width: 1199.98px) {
+  .tgmenu__wrap {
+    display: none;
+  }
+}
+
 .tg-header__top {
   background-color: var(--tg-theme-secondary);
   padding: 11px 0;
@@ -912,7 +918,9 @@ textarea {
   }
 }
 .tg-header__area .mobile-nav-toggler {
-  position: relative;
+  position: static;
+  margin: 0 auto;
+  justify-content: center;
   float: right;
   font-size: 30px;
   cursor: pointer;
@@ -923,7 +931,7 @@ textarea {
 }
 @media (max-width: 1199.98px) {
   .tg-header__area .mobile-nav-toggler {
-    display: block;
+    display: flex;
   }
 }
 .tg-header__area.sticky-menu {
@@ -1578,8 +1586,9 @@ textarea {
 .logo-header img {
   position: relative;
   z-index: 2;
-  max-width: 180px;
-  filter: drop-shadow(5px 5px 12px #616161);
+  max-width: 140px;
+  color: rgba(97, 97, 97, 0.5490196078);
+  filter: drop-shadow(0px 0px 6px rgba(97, 97, 97, 0.5490196078));
 }
 
 .btn-inscription {
