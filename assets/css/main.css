@@ -1571,6 +1571,23 @@ textarea {
   max-width: 150px;
 }
 
+.logo-header {
+  position: absolute;
+}
+.logo-header img {
+  position: relative;
+  z-index: 2;
+  max-width: 180px;
+  filter: drop-shadow(5px 5px 12px #616161);
+}
+
+.btn-inscription {
+  position: absolute;
+  right: 0;
+  top: 25%;
+  padding-right: 12px;
+}
+
 .sticky-menu {
   position: fixed;
   left: 0;
