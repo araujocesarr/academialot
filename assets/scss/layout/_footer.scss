@@ -188,7 +188,7 @@
 }
 .copyright {
   &__wrapper {
-    border-top: 1px solid #2a4774;
+    border-top: 1px solid white;
     padding: 30px 0;
   }
   &__text {
@@ -197,7 +197,7 @@
     }
     & p {
       text-transform: capitalize;
-      color: #8798b3;
+      color: white;
       font-size: 15px;
       font-family: var(--tg-heading-font-family);
       margin: 0 0;
@@ -224,7 +224,8 @@
         }
       }
       & a {
-        color: #8798b3;
+        font-weight: bold;
+        color: white;
         font-size: 15px;
         font-family: var(--tg-heading-font-family);
       }

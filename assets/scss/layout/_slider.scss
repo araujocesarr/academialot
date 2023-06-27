@@ -54,8 +54,7 @@
       color: white;
       margin: 0 0 13px;
       @media #{$xl} {
-        padding: 0 0;
-        background: transparent;
+        padding: 5px 15px;
         font-weight: var(--tg-fw-semi-bold);
       }
     }
