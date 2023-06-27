@@ -7,7 +7,7 @@
   & .sub-title {
     display: inline-block;
     line-height: 1;
-    background: #52b247;
+    background: #1bae70;
     @include border-radius(4px);
     padding: 7px 15px;
     font-weight: var(--tg-fw-medium);
@@ -15,7 +15,7 @@
     margin: 0 0 13px;
   }
   & .title {
-    font-size: 36px;
+    font-size: 48px;
     line-height: 1.32;
     margin: 0 0;
     letter-spacing: -1px;
@@ -27,7 +27,7 @@
       font-size: 36px;
     }
     & span:not(.svg-icon) {
-      color: #52b247;
+      color: #1bae70;
       position: relative;
       display: inline-block;
       z-index: 1;
