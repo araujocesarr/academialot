@@ -854,7 +854,7 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  color: #e6eaef;
+  color: white;
   gap: 7px;
 }
 .tg-header__top-info li:not(:last-child)::after {
@@ -867,7 +867,7 @@ textarea {
   font-size: 20px;
 }
 .tg-header__top-info li a {
-  color: #e6eaef;
+  color: white;
 }
 .tg-header__top-info li a:hover {
   color: var(--tg-common-color-white);
@@ -896,10 +896,10 @@ textarea {
   }
 }
 .tg-header__top-social li {
-  color: #e7effc;
+  color: white;
 }
 .tg-header__top-social li a {
-  color: #e7effc;
+  color: white;
 }
 .tg-header__top-social li a:hover {
   color: var(--tg-common-color-white);

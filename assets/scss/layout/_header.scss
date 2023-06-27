@@ -33,7 +33,7 @@
       & li {
         @include flexbox();
         align-items: center;
-        color: #e6eaef;
+        color: white;
         gap: 7px;
         &:not(:last-child)::after {
           content: "|";
@@ -45,7 +45,7 @@
           font-size: 20px;
         }
         & a {
-          color: #e6eaef;
+          color: white;
           &:hover {
             color: var(--tg-common-color-white);
           }
@@ -69,9 +69,9 @@
         justify-content: center;
       }
       & li {
-        color: #e7effc;
+        color: white;
         & a {
-          color: #e7effc;
+          color: white;
           &:hover {
             color: var(--tg-common-color-white);
           }
