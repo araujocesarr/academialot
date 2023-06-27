@@ -292,11 +292,9 @@
     }
     & > ul {
       & > li {
-        &.active,
-        &:hover {
-          & a {
-            color: var(--tg-theme-primary);
-          }
+        & a.active,
+        & a:hover {
+          color: var(--tg-theme-primary);
         }
       }
     }
