@@ -704,12 +704,17 @@
       }
       & .accordion {
         &-item {
+          padding: 20px 24px;
           margin: 0 0 15px;
           border: 1px solid #dce1e8;
           @include border-radius(4px);
           overflow: hidden;
           &:last-child {
             margin: 0 0;
+          }
+          & h2 {
+            margin: 0;
+            font-size: 18px;
           }
         }
         &-button {

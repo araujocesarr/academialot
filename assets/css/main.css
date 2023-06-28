@@ -4090,6 +4090,7 @@ textarea {
   margin: 0 0 20px;
 }
 .courses__details-curriculum .accordion-item {
+  padding: 20px 24px;
   margin: 0 0 15px;
   border: 1px solid #dce1e8;
   -webkit-border-radius: 4px;
@@ -4101,6 +4102,10 @@ textarea {
 }
 .courses__details-curriculum .accordion-item:last-child {
   margin: 0 0;
+}
+.courses__details-curriculum .accordion-item h2 {
+  margin: 0;
+  font-size: 18px;
 }
 .courses__details-curriculum .accordion-button {
   border: none;
