@@ -3490,7 +3490,7 @@ textarea {
   margin-right: 7px;
 }
 .courses__item-rating {
-  color: #F8BC24;
+  color: #f8bc24;
   letter-spacing: -1px;
   line-height: 1;
 }
@@ -3551,7 +3551,7 @@ textarea {
 }
 .courses__item-bottom .price del {
   font-size: 16px;
-  color: #8D9DB5;
+  color: #8d9db5;
   margin-right: 4px;
 }
 .courses__item-two {
@@ -3699,8 +3699,8 @@ textarea {
   width: 50px;
   height: 50px;
   background: var(--tg-common-color-gray);
-  border: 1px solid #FFFFFF;
-  box-shadow: 0px 10px 20px #DFDFDF;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 10px 20px #dfdfdf;
   border-radius: 50%;
   display: -webkit-box;
   display: -moz-box;
@@ -3741,7 +3741,7 @@ textarea {
   padding-right: 15px;
 }
 .courses-slider-active .courses__item-two {
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   border-radius: 6px;
   box-shadow: none;
   padding: 15px;
@@ -3757,7 +3757,7 @@ textarea {
   max-height: 50px;
   width: auto;
   height: auto;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   border-radius: 50px;
 }
 .courses-slider-active .courses__item-two-content {
@@ -3789,7 +3789,7 @@ textarea {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border: 1px solid #6196EA;
+  border: 1px solid #6196ea;
   border-radius: 4px;
   color: var(--tg-theme-primary);
 }
@@ -3802,7 +3802,7 @@ textarea {
   color: var(--tg-common-color-white);
 }
 .courses__grid-wrap .courses__item-two {
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   border-radius: 6px;
   box-shadow: none;
   padding: 15px;
@@ -3818,7 +3818,7 @@ textarea {
   max-height: 50px;
   width: auto;
   height: auto;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ffffff;
   border-radius: 50px;
 }
 @media (max-width: 767.98px) {
@@ -3838,7 +3838,7 @@ textarea {
   margin-right: 6px;
 }
 .courses__list-wrap .courses__item-two {
-  border: 1px solid #E8E8E8;
+  border: 1px solid #e8e8e8;
   border-radius: 6px;
   box-shadow: none;
   padding: 15px;
@@ -3936,7 +3936,7 @@ textarea {
   font-size: 15px;
   font-weight: var(--tg-fw-medium);
   color: var(--tg-common-color-white);
-  background: #04BC53;
+  background: #04bc53;
   line-height: 1;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -3963,7 +3963,7 @@ textarea {
   }
 }
 .courses__breadcrumb-content p {
-  color: #B2BDCD;
+  color: #b2bdcd;
   margin: 0 0 0;
 }
 .courses__breadcrumb-content .courses__item-meta {
@@ -3971,7 +3971,7 @@ textarea {
   gap: 10px 19px;
 }
 .courses__breadcrumb-content .courses__item-meta li {
-  color: #B2BDCD;
+  color: #b2bdcd;
 }
 .courses__breadcrumb-content .courses__item-meta li .author {
   display: -webkit-box;
@@ -3986,7 +3986,7 @@ textarea {
   flex: 0 0 auto;
 }
 .courses__breadcrumb-content .courses__item-meta li .author img {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #ffffff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -3999,7 +3999,7 @@ textarea {
   margin-top: -1px;
 }
 .courses__breadcrumb-content .courses__item-meta li a {
-  color: #B2BDCD;
+  color: #b2bdcd;
 }
 .courses__breadcrumb-content .courses__item-meta li .rating {
   display: -webkit-box;
@@ -4011,7 +4011,7 @@ textarea {
 }
 .courses__breadcrumb-content .courses__item-meta li .rating i {
   font-size: 15px;
-  color: #F8BC24;
+  color: #f8bc24;
   margin: 0 5px 0 0;
 }
 .courses__breadcrumb-content .courses__item-meta li .rating-count {
@@ -4027,7 +4027,7 @@ textarea {
   }
 }
 .courses__details-wrapper .nav-tabs {
-  border-bottom: 3px solid #E6EAEF;
+  border-bottom: 3px solid #e6eaef;
   gap: 30px;
   margin-bottom: 25px;
 }
@@ -4072,12 +4072,15 @@ textarea {
   display: block;
   width: 100%;
   height: 1px;
-  background: #DBE1E8;
+  background: #dbe1e8;
   margin: 15px 0 0;
 }
 .courses__details-inner .event-details-list .list-wrap {
   padding: 0 0;
   margin: 0 0;
+}
+.courses__details-inner .event-details-list .list-wrap li {
+  margin-bottom: 5px;
 }
 .courses__details-curriculum {
   margin: 40px 0 0;
@@ -4088,7 +4091,7 @@ textarea {
 }
 .courses__details-curriculum .accordion-item {
   margin: 0 0 15px;
-  border: 1px solid #DCE1E8;
+  border: 1px solid #dce1e8;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -o-border-radius: 4px;
@@ -4107,14 +4110,14 @@ textarea {
   padding: 1.25rem 1.5rem;
 }
 .courses__details-curriculum .accordion-button:not(.collapsed) {
-  background: #E7EFFC;
+  background: #e7effc;
   color: var(--tg-theme-primary);
 }
 .courses__details-curriculum .accordion-body {
   padding: 0 0;
 }
 .courses__details-curriculum .course-item {
-  border-bottom: 1px solid #DCE1E8;
+  border-bottom: 1px solid #dce1e8;
   padding: 17px 26px;
 }
 @media (max-width: 767.98px) {
@@ -4132,7 +4135,7 @@ textarea {
   display: -webkit-flex;
   display: flex;
   align-items: center;
-  color: #39557E;
+  color: #39557e;
   cursor: no-drop;
 }
 .courses__details-curriculum .course-item .course-item-link:hover {
@@ -4185,7 +4188,7 @@ textarea {
   display: block;
   width: 100%;
   height: 1px;
-  background: #DBE1E8;
+  background: #dbe1e8;
   margin: 20px 0 0;
 }
 .courses__details-sidebar {
@@ -4214,7 +4217,7 @@ textarea {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #082A5E;
+  background: #082a5e;
   opacity: 0.2;
   border-radius: 4px;
   z-index: 1;
@@ -4277,7 +4280,7 @@ textarea {
   line-height: 1;
 }
 .courses__details-sidebar .rc-post-content .price del {
-  color: #8D9DB5;
+  color: #8d9db5;
   font-size: 14px;
   margin-right: 6px;
 }
@@ -4318,7 +4321,7 @@ textarea {
 }
 .courses__details-reviews #course-reviews .review-stars-rated {
   font-size: 15px;
-  color: #F8BC24;
+  color: #f8bc24;
   line-height: 1;
   margin: 0 0 8px;
 }
@@ -4329,7 +4332,7 @@ textarea {
 .courses__details-reviews #course-reviews .user-name .date {
   font-size: 14px;
   font-weight: var(--tg-fw-regular);
-  color: #8D9DB5;
+  color: #8d9db5;
   margin-left: 5px;
 }
 .courses__details-reviews .course-review-head {
@@ -4342,7 +4345,7 @@ textarea {
   display: block;
   width: 100%;
   height: 1px;
-  background: #DBE1E8;
+  background: #dbe1e8;
   margin: 15px 0 0;
 }
 .courses__instructors-item {
@@ -4384,7 +4387,7 @@ textarea {
   display: block;
   font-size: 14px;
   font-family: var(--tg-heading-font-family);
-  color: #5A7093;
+  color: #5a7093;
   line-height: 1;
 }
 .courses__instructors-content .meta {
@@ -4392,7 +4395,7 @@ textarea {
   line-height: 1;
   margin: 23px 0 10px;
   padding-bottom: 15px;
-  border-bottom: 1px solid #DBE1E8;
+  border-bottom: 1px solid #dbe1e8;
 }
 .courses__instructors-content .meta li {
   display: -webkit-box;
@@ -4407,7 +4410,7 @@ textarea {
   margin: -1px 0 0;
 }
 .courses__instructors-content .meta .rating i {
-  color: #F8BC24;
+  color: #f8bc24;
   margin: 0 0;
 }
 .courses__instructors-content .meta .rating .average {
@@ -4419,8 +4422,8 @@ textarea {
 }
 
 .course-rate {
-  background: #F6F7FA;
-  border: 1px solid #DAE0E7;
+  background: #f6f7fa;
+  border: 1px solid #dae0e7;
   border-radius: 8px;
   display: -webkit-box;
   display: -moz-box;
@@ -4438,7 +4441,7 @@ textarea {
 }
 .course-rate__summary {
   background: var(--tg-common-color-white);
-  border: 1px solid #E6EAEF;
+  border: 1px solid #e6eaef;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
   border-radius: 8px;
   width: 180px;
@@ -4454,17 +4457,17 @@ textarea {
   gap: 3px;
 }
 .course-rate__summary-value {
-  color: #082A5E;
+  color: #082a5e;
   font-weight: 600;
   font-size: 64px;
   line-height: 0.8;
 }
 .course-rate__summary-stars {
   font-size: 15px;
-  color: #F8BC24;
+  color: #f8bc24;
 }
 .course-rate__summary-text {
-  color: #5A7093;
+  color: #5a7093;
 }
 .course-rate__details {
   flex-grow: 1;
@@ -4493,7 +4496,7 @@ textarea {
 }
 .course-rate__details-row-star i {
   font-size: 17px;
-  color: #F8BC24;
+  color: #f8bc24;
   margin-left: 3px;
 }
 .course-rate__details-row-value {
@@ -4502,7 +4505,7 @@ textarea {
   flex-grow: 1;
 }
 .course-rate__details-row-value .rating-gray {
-  background: #E0E3EB;
+  background: #e0e3eb;
   border-radius: 50px;
   height: 7px;
 }
@@ -4511,7 +4514,7 @@ textarea {
   left: 0;
   top: 0;
   height: 7px;
-  background: #F8BC24;
+  background: #f8bc24;
   border-radius: 50px;
 }
 .course-rate__details-row-value .rating-count {
@@ -4531,8 +4534,8 @@ textarea {
 .course-review-form input, .course-review-form textarea {
   display: block;
   width: 100%;
-  background: #F6F7FA;
-  border: 1px solid #DAE0E7;
+  background: #f6f7fa;
+  border: 1px solid #dae0e7;
   border-radius: 3px;
   padding: 10px 17px 8px;
   font-size: 15px;
@@ -4540,7 +4543,7 @@ textarea {
 }
 .course-review-form input::placeholder, .course-review-form textarea::placeholder {
   font-size: 15px;
-  color: #5A7093;
+  color: #5a7093;
 }
 .course-review-form textarea {
   min-height: 185px;
@@ -4561,7 +4564,7 @@ textarea {
   font-size: 18px;
 }
 .course-form-rating > i {
-  color: #F8BC24;
+  color: #f8bc24;
   font-size: 15px;
   margin: 0 1px;
   cursor: pointer;
