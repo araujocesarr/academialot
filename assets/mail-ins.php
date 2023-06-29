@@ -6,31 +6,83 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-        // Get the form fields and remove MORALspace.
+        if (isset($_POST["course"])) {
+            $course = $_POST["course"];
+        } 
+
+        
+        
+
+        
+
 
         $name = strip_tags(trim($_POST["name"]));
 
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
 
+        $firstlastname = strip_tags(trim($_POST["firstlastname"]));
+
+				$firstlastname = str_replace(array("\r","\n"),array(" "," "),$firstlastname);
+
+                
+        $secondlastname = strip_tags(trim($_POST["secondlastname"]));
+
+            $secondlastname = str_replace(array("\r","\n"),array(" "," "),$secondlastname);
+
+        $nationality = strip_tags(trim($_POST["nationality"]));
+
+        $telephone = trim($_POST["telephone"]);
+
+        $bornplace  = strip_tags(trim($_POST["bornplace"]));
+
+        $borndate  = strip_tags(trim($_POST["borndate"]));
+
+        $age = strip_tags(trim($_POST["age"]));
+
+        $civilstatus = strip_tags(trim($_POST["civilstatus"]));
+
+        $address = strip_tags(trim($_POST["address"]));
+
+        $academiclevel = strip_tags(trim($_POST["academiclevel"]));
+
+        $job = strip_tags(trim($_POST["job"]));
+
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
 
-        $phone = trim($_POST["phone"]);
+        $companyname = strip_tags(trim($_POST["companyname"]));
 
-        $subject = trim($_POST["subject"]);
+        $companytelephone = strip_tags(trim($_POST["companytelephone"]));
 
-        $message = trim($_POST["message"]);
+        $companyaddress = strip_tags(trim($_POST["companyaddress"]));
+
+        $companyjob = strip_tags(trim($_POST["companyjob"]));
+
+        $companytime = strip_tags(trim($_POST["companytime"]));
+
+        $paymentperson = strip_tags(trim($_POST["paymentperson"]));
+
+        $paymentrnc = strip_tags(trim($_POST["paymentrnc"]));
+
+        $paymenttelephone = strip_tags(trim($_POST["paymenttelephone"]));
+
+        $paymentcelular = strip_tags(trim($_POST["paymentcelular"]));
+
+        if (isset($_POST["paymenttype"])) {
+            $paymenttype = $_POST["paymenttype"];
+        } 
+
 
 
 
         // Check that data was sent to the mailer.
 
-        if ( empty($name)or empty($phone) OR empty($subject) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name)or empty($telephone)  OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
             // Set a 400 (bad request) response code and exit.
 
             http_response_code(400);
 
-            echo "Please complete the form and try again.";
+            echo "Completa e intenta de nuevo.";
 
             exit;
 
@@ -48,13 +100,13 @@
 
         // Set the email subject.
 
-        $sender = "New contact from $name";
+        $sender = "Nuevo mensaje de $name";
 
 
 
         //Email Header
 
-        $head = " /// Johanspond \\\ ";
+        $head = " /// Nuevo mensaje de inscripción \\\ ";
 
 
 
@@ -62,18 +114,55 @@
 
         $email_content = "$head\n\n\n";
 
-        $email_content .= "Name: $name\n";
+        $email_content .= "Curso escogido: $course\n\n";
+
+        $email_content .= "Nombre: $name\n\n";
+
+        $email_content .= "Primer apellido: $firstlastname\n\n";
+
+        $email_content .= "Segundo apellido: $secondlastname\n\n";
+
+        $email_content .= "Nacionalidad: $nationality\n\n";
+
+        $email_content .= "Teléfono: $telephone\n\n";
+
+        $email_content .= "Lugar de nacimiento: $bornplace\n\n";
+
+        $email_content .= "Fecha de nacimiento: $borndate\n\n";
+
+        $email_content .= "Edad: $age\n\n";
+
+        $email_content .= "Estado civil: $civilstatus\n\n";
+
+        $email_content .= "Dirección: $address\n\n";
+
+        $email_content .= "Nivel académico: $academiclevel\n\n";
+
+        $email_content .= "Ocupación: $job\n\n";
 
         $email_content .= "Email: $email\n\n";
+        
+        $email_content .= "Nombre de la compañia donde trabaja: $companyname\n\n";
 
-        $email_content .= "Phone: $phone\n\n";
+        $email_content .= "Teléfono de la compañia donde trabaja: $companytelephone\n\n";
 
-        $email_content .= "Subject: $subject\n\n";
+        $email_content .= "Dirección de la compañia donde trabaja: $companyaddress\n\n";
 
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Cargo que ocupa en la compañia donde trabaja: $companyjob\n\n";
 
+        $email_content .= "Tiempo en el cargo: $companytime\n\n";
 
+        $email_content .= "Nombre del titular del método de pago: $paymentperson\n\n";
 
+        $email_content .= "Cédula o RNC del método de pago: $paymentrnc\n\n";
+
+        $email_content .= "Teléfono del método de pago: $paymenttelephone\n\n";
+
+        $email_content .= "Celular del método de pago: $paymentcelular\n\n";
+
+        $email_content .= "Tipo de pago: $paymenttype\n\n";
+
+        
         // Build the email headers.
 
         $email_headers = "From: $name <$email>";
@@ -88,7 +177,7 @@
 
             http_response_code(200);
 
-            echo "Thank You! Your message has been sent.";
+            echo "¡Gracias por contactarnos!";
 
         } else {
 
@@ -96,7 +185,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Algo salió mal.";
 
         }
 
@@ -108,7 +197,7 @@
 
         http_response_code(403);
 
-        echo "There was a problem with your submission, please try again.";
+        echo "Intenta nuevamente.";
 
     }
 

@@ -249,6 +249,7 @@
                       name="course"
                       id="course-basic"
                       class="form-check-input"
+                      value="Curso Básico de Psicofisiología Forense"
                       required
                       oninvalid="this.setCustomValidity('Por favor selecciona una opción')"
                       oninput="setCustomValidity('')"
@@ -265,6 +266,7 @@
                       name="course"
                       id="course-advance"
                       class="form-check-input"
+                      value="Curso Avanzado de Psicofisiología Forense"
                     />
                     <label for="course-advance" class="form-check-label"
                       >Curso Avanzado de Psicofisiología Forense
@@ -278,6 +280,7 @@
                       name="course"
                       id="course-act"
                       class="form-check-input"
+                      value="Curso de actualización"
                     />
                     <label for="course-act" class="form-check-label"
                       >Cursos de Actualización
@@ -303,7 +306,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="first-lastname"
+                      name="firstlastname"
                       placeholder="Primer apellido*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu primer apellido')"
@@ -315,7 +318,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="second-lastname"
+                      name="secondlastname"
                       placeholder="Segundo apellido*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu segundo apellido')"
@@ -351,7 +354,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="born-place"
+                      name="bornplace"
                       placeholder="Lugar de nacimiento*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu lugar de nacimiento')"
@@ -363,7 +366,7 @@
                   <div class="form-grp">
                     <input
                       type="date"
-                      name="born-date"
+                      name="borndate"
                       placeholder="Fecha de nacimiento*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu fecha de nacimiento')"
@@ -387,7 +390,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="civil-status"
+                      name="civilstatus"
                       placeholder="Estado civil*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu estado civil')"
@@ -411,7 +414,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="academic-level"
+                      name="academiclevel"
                       placeholder="Nivel académico*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu nivel académico')"
@@ -450,7 +453,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="company-name"
+                      name="companyname"
                       placeholder="Nombre de la empresa donde labora*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe el nombre de la empresa donde labora')"
@@ -462,7 +465,7 @@
                   <div class="form-grp">
                     <input
                       type="tel"
-                      name="company-telephone"
+                      name="companytelephone"
                       placeholder="Teléfono de la empresa*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe el número de teléfono de la empresa')"
@@ -474,7 +477,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="company-address"
+                      name="companyaddress"
                       placeholder="Dirección de la empresa*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe la dirección de la empresa')"
@@ -486,7 +489,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="company-job"
+                      name="companyjob"
                       placeholder="Cargo que ocupa*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu cargo')"
@@ -498,7 +501,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="company-time"
+                      name="companytime"
                       placeholder="Tiempo en el cargo*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu tiempo en el cargo')"
@@ -513,7 +516,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="payment-person"
+                      name="paymentperson"
                       placeholder="Razón Social Persona Jurídica o Física*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe los datos solicitados')"
@@ -525,7 +528,7 @@
                   <div class="form-grp">
                     <input
                       type="text"
-                      name="payment-rnc"
+                      name="paymentrnc"
                       placeholder="Cédula o RNC*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu cédula o RNC')"
@@ -537,7 +540,7 @@
                   <div class="form-grp">
                     <input
                       type="tel"
-                      name="payment-telephone"
+                      name="paymenttelephone"
                       placeholder="Teléfono*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu número de teléfono asociado')"
@@ -549,7 +552,7 @@
                   <div class="form-grp">
                     <input
                       type="tel"
-                      name="payment-celular"
+                      name="paymentcelular"
                       placeholder="Celular*"
                       required
                       oninvalid="this.setCustomValidity('Por favor escribe tu celular asociado')"
@@ -561,9 +564,10 @@
                   <div class="form-check">
                     <input
                       type="radio"
-                      name="payment-type"
+                      name="paymenttype"
                       id="payment-type-cheque"
                       class="form-check-input"
+                      value="Cheque"
                       required
                       oninvalid="this.setCustomValidity('Por favor selecciona una opción')"
                       oninput="setCustomValidity('')"
@@ -575,9 +579,10 @@
                   <div class="form-check">
                     <input
                       type="radio"
-                      name="payment-type"
+                      name="paymenttype"
                       id="payment-type-transferencia"
                       class="form-check-input"
+                      value="Transferencia"
                     />
                     <label
                       for="payment-type-transferencia"
@@ -588,9 +593,10 @@
                   <div class="form-check">
                     <input
                       type="radio"
-                      name="payment-type"
+                      name="paymenttype"
                       id="payment-type-tarjeta"
                       class="form-check-input"
+                      value="Tarjeta"
                     />
                     <label for="payment-type-tarjeta" class="form-check-label"
                       >Tarjeta</label
@@ -620,7 +626,7 @@
     <script src="assets/js/slick-animation.min.js"></script>
     <script src="assets/js/tg-cursor.min.js"></script>
     <script src="assets/js/vivus.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/ajax-form-ins.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/main.js"></script>

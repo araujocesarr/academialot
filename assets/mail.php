@@ -48,13 +48,13 @@
 
         // Set the email subject.
 
-        $sender = "New contact from $name";
+        $sender = "Nuevo mensaje de $name";
 
 
 
         //Email Header
 
-        $head = " /// Johanspond \\\ ";
+        $head = " /// Nuevo mensaje \\\ ";
 
 
 
@@ -62,15 +62,15 @@
 
         $email_content = "$head\n\n\n";
 
-        $email_content .= "Name: $name\n";
+        $email_content .= "Nombre: $name\n";
 
         $email_content .= "Email: $email\n\n";
 
-        $email_content .= "Phone: $phone\n\n";
+        $email_content .= "Teléfono: $phone\n\n";
 
-        $email_content .= "Subject: $subject\n\n";
+        $email_content .= "Asunto: $subject\n\n";
 
-        $email_content .= "Message:\n$message\n";
+        $email_content .= "Mensaje:\n$message\n";
 
 
 
