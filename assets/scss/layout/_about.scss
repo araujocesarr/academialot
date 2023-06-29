@@ -266,7 +266,6 @@
       flex: 0 0 auto;
       @include flexbox();
       align-items: center;
-
       gap: 25px;
       @media #{$lg} {
         gap: 20px;

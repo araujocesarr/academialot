@@ -43,6 +43,51 @@
     </div>
     <!-- Preloader-end -->
 
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Tour Virtual</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <iframe
+              width="100%"
+              height="390"
+              src="https://www.youtube.com/embed/XXYlFuWEuKI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Scroll-top -->
     <button class="scroll__top scroll-to-target" data-target="html">
       <i class="tg-flaticon-arrowhead-up"></i>
@@ -373,7 +418,6 @@
                 </div>
                 <div class="column">
                   <img src="assets/img/others/about_img04.jpg" alt="img" />
-                  <img src="assets/img/others/about_img05.jpg" alt="img" />
                 </div>
                 <div class="about__shapes">
                   <img
@@ -430,7 +474,10 @@
               <div class="blog__post-item-four shine__animate-item">
                 <div class="blog__post-thumb-two">
                   <a href="blog-details.html" class="shine__animate-link">
-                    <img src="assets/img/blog/blog_standard02.jpg" alt="img" />
+                    <img
+                      src="assets/img/blog/curso-basico-poligrafia.png"
+                      alt="img"
+                    />
                   </a>
                 </div>
                 <div class="blog__post-content-two">
@@ -447,7 +494,10 @@
               <div class="blog__post-item-four shine__animate-item">
                 <div class="blog__post-thumb-two">
                   <a href="blog-details.html" class="shine__animate-link">
-                    <img src="assets/img/blog/blog_standard03.jpg" alt="img" />
+                    <img
+                      src="assets/img/blog/curso-avanzado-poligrafia.png"
+                      alt="img"
+                    />
                   </a>
                 </div>
                 <div class="blog__post-content-two">
@@ -472,15 +522,14 @@
             <div class="col-xl-7 col-lg-7">
               <div class="online__image-wrap">
                 <div class="main-img">
-                  <iframe
-                    width="475"
-                    height="320"
-                    src="https://www.youtube-nocookie.com/embed/XXYlFuWEuKI"
-                    frameborder="0"
-                    gesture="media"
-                    allow="encrypted-media"
-                    allowfullscreen
-                  ></iframe>
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    style="border: 0"
+                  >
+                    <img src="assets/img/others/video-portada.jpg" alt="" />
+                  </button>
                 </div>
 
                 <img
@@ -505,15 +554,23 @@
                   académica!
                 </p>
                 <div class="tg-button-wrap">
-                  <a href="#" class="btn tg-svg"
-                    ><span class="text">Reproducir Video</span>
+                  <!-- Button trigger modal -->
+
+                  <button
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                    class="btn tg-svg"
+                  >
+                    <span class="text">Reproducir Video</span>
                     <span
                       class="svg-icon"
                       id="online-btn"
                       data-svg-icon="assets/img/icons/btn-arrow.svg"
-                    ></span
-                  ></a>
+                    ></span>
+                  </button>
                 </div>
+
                 <img
                   src="assets/img/objects/online_04.png"
                   alt="shape"

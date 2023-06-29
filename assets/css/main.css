@@ -8660,7 +8660,7 @@ blockquote p {
   border: 1px solid #ececec;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
-  margin: 0 0 30px;
+  margin-top: 60px;
   padding: 28px 30px 30px;
 }
 @media (max-width: 1199.98px) {
@@ -8672,9 +8672,6 @@ blockquote p {
   .blog-widget {
     padding: 28px 30px 30px;
   }
-}
-.blog-widget:last-child {
-  margin: 0 0;
 }
 .blog-widget.widget_search {
   padding: 0 0;
