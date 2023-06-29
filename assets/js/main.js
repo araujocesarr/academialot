@@ -31,6 +31,8 @@
       }
     });
   });
+
+  //Active for mobile header
   $(document).ready(function () {
     var currentUrl = window.location.pathname;
     console.log(currentUrl);

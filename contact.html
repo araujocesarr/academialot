@@ -288,6 +288,8 @@
                           type="text"
                           placeholder="Nombre *"
                           required
+                          oninvalid="this.setCustomValidity('Por favor escribe tu nombre')"
+                          oninput="setCustomValidity('')"
                         />
                       </div>
                     </div>
@@ -298,6 +300,8 @@
                           type="email"
                           placeholder="E-mail *"
                           required
+                          oninvalid="this.setCustomValidity('Por favor escribe tu correo')"
+                          oninput="setCustomValidity('')"
                         />
                       </div>
                     </div>
@@ -305,9 +309,11 @@
                       <div class="form-grp">
                         <input
                           name="phone"
-                          type="number"
+                          type="tel"
                           placeholder="Teléfono *"
                           required
+                          oninvalid="this.setCustomValidity('Por favor escribe tu número de teléfono')"
+                          oninput="setCustomValidity('')"
                         />
                       </div>
                     </div>
@@ -318,16 +324,14 @@
                           type="text"
                           placeholder="Asunto *"
                           required
+                          oninvalid="this.setCustomValidity('Por favor escribe un asunto')"
+                          oninput="setCustomValidity('')"
                         />
                       </div>
                     </div>
                   </div>
                   <div class="form-grp">
-                    <textarea
-                      name="message"
-                      placeholder="Mensaje"
-                      required
-                    ></textarea>
+                    <textarea name="message" placeholder="Mensaje"></textarea>
                   </div>
                   <button type="submit" class="btn">Envíanos un mensaje</button>
                 </form>

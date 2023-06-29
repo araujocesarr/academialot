@@ -235,7 +235,11 @@
         <div class="px-3 container">
           <div class="contact-form-wrap">
             <h4 class="text-center">Formulario de Inscripción</h4>
-            <form id="contact-form" action="assets/mail.php" method="POST">
+            <form
+              id="inscription-form"
+              action="assets/mail-ins.php"
+              method="POST"
+            >
               <div class="row pb-20">
                 <h6>SELECCIONAR CURSO</h6>
                 <div class="col-md-4">
@@ -245,6 +249,9 @@
                       name="course"
                       id="course-basic"
                       class="form-check-input"
+                      required
+                      oninvalid="this.setCustomValidity('Por favor selecciona una opción')"
+                      oninput="setCustomValidity('')"
                     />
                     <label for="course-basic" class="form-check-label"
                       >Curso Básico de Psicofisiología Forense
@@ -287,6 +294,8 @@
                       type="text"
                       placeholder="Nombre*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu nombre')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -297,6 +306,8 @@
                       name="first-lastname"
                       placeholder="Primer apellido*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu primer apellido')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -307,6 +318,8 @@
                       name="second-lastname"
                       placeholder="Segundo apellido*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu segundo apellido')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -317,6 +330,8 @@
                       name="nationality"
                       placeholder="Nacionalidad*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu nacionalidad')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -327,6 +342,8 @@
                       name="telephone"
                       placeholder="Teléfono*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu número de teléfono')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -337,6 +354,8 @@
                       name="born-place"
                       placeholder="Lugar de nacimiento*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu lugar de nacimiento')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -347,6 +366,8 @@
                       name="born-date"
                       placeholder="Fecha de nacimiento*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu fecha de nacimiento')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -357,6 +378,8 @@
                       name="age"
                       placeholder="Edad*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu edad')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -367,6 +390,8 @@
                       name="civil-status"
                       placeholder="Estado civil*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu estado civil')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -377,6 +402,8 @@
                       name="address"
                       placeholder="Dirección*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu dirección')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -387,6 +414,8 @@
                       name="academic-level"
                       placeholder="Nivel académico*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu nivel académico')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -397,6 +426,8 @@
                       name="job"
                       placeholder="Oficio*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu oficio')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -407,6 +438,8 @@
                       name="email"
                       placeholder="Dirección de correo electrónico*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu correo electrónico')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -420,6 +453,8 @@
                       name="company-name"
                       placeholder="Nombre de la empresa donde labora*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe el nombre de la empresa donde labora')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -430,6 +465,8 @@
                       name="company-telephone"
                       placeholder="Teléfono de la empresa*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe el número de teléfono de la empresa')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -440,6 +477,8 @@
                       name="company-address"
                       placeholder="Dirección de la empresa*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe la dirección de la empresa')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -450,6 +489,8 @@
                       name="company-job"
                       placeholder="Cargo que ocupa*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu cargo')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -460,6 +501,8 @@
                       name="company-time"
                       placeholder="Tiempo en el cargo*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu tiempo en el cargo')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -473,6 +516,8 @@
                       name="payment-person"
                       placeholder="Razón Social Persona Jurídica o Física*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe los datos solicitados')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -483,6 +528,8 @@
                       name="payment-rnc"
                       placeholder="Cédula o RNC*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu cédula o RNC')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -493,6 +540,8 @@
                       name="payment-telephone"
                       placeholder="Teléfono*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu número de teléfono asociado')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -503,6 +552,8 @@
                       name="payment-celular"
                       placeholder="Celular*"
                       required
+                      oninvalid="this.setCustomValidity('Por favor escribe tu celular asociado')"
+                      oninput="setCustomValidity('')"
                     />
                   </div>
                 </div>
@@ -513,6 +564,9 @@
                       name="payment-type"
                       id="payment-type-cheque"
                       class="form-check-input"
+                      required
+                      oninvalid="this.setCustomValidity('Por favor selecciona una opción')"
+                      oninput="setCustomValidity('')"
                     />
                     <label for="payment-type-cheque" class="form-check-label"
                       >Cheque</label

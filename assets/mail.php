@@ -30,7 +30,7 @@
 
             http_response_code(400);
 
-            echo "Please complete the form and try again.";
+            echo "Completa el formulario e inténtalo de nuevo.";
 
             exit;
 
@@ -42,7 +42,7 @@
 
         // FIXME: Update this to your desired email address.
 
-        $recipient = "founder@stthemes.com";
+        $recipient = "test@mailhog.local";
 
 
 
@@ -88,7 +88,7 @@
 
             http_response_code(200);
 
-            echo "Thank You! Your message has been sent.";
+            echo "¡Gracias por contactarnos!";
 
         } else {
 
@@ -96,7 +96,7 @@
 
             http_response_code(500);
 
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Algo salió mal.";
 
         }
 
@@ -108,7 +108,7 @@
 
         http_response_code(403);
 
-        echo "There was a problem with your submission, please try again.";
+        echo "Intenta nuevamente.";
 
     }
 
