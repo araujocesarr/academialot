@@ -4105,7 +4105,8 @@ textarea {
 }
 .courses__details-curriculum .accordion-item h2 {
   margin: 0;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: lighter;
 }
 .courses__details-curriculum .accordion-button {
   border: none;
