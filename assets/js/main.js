@@ -527,10 +527,7 @@
     // init Isotope
     var $grid = $(".courses-active").isotope({
       itemSelector: ".grid-item",
-      percentPosition: true,
-      masonry: {
-        columnWidth: 1,
-      },
+      layoutMode: "fitRows",
     });
     // filter items on button click
     $(".courses__nav-active").on("click", "button", function () {

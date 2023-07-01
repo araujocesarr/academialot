@@ -84,6 +84,7 @@
     }
   }
   &__item {
+    height: 100%;
     margin: 0 0 30px;
     background: var(--tg-common-color-white);
     @include border-radius(6px);
@@ -114,6 +115,7 @@
     }
     &-content {
       padding: 25px 30px 20px;
+
       @media #{$md} {
         padding: 25px 25px 20px;
       }
