@@ -15,6 +15,22 @@
 .grid-item {
   height: 600px;
   margin-bottom: 35px;
+  @media #{$xs} {
+    height: auto;
+    margin-bottom: 0;
+  }
+  @media (min-width: 767.98px) {
+    height: 550px;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 989.98px) {
+    height: 680px;
+    margin-bottom: 35px;
+  }
+  @media (min-width: 1196.98px) {
+    height: 600px;
+    margin-bottom: 35px;
+  }
 }
 .courses {
   &-area {
