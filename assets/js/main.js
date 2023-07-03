@@ -529,6 +529,7 @@
       itemSelector: ".grid-item",
       layoutMode: "fitRows",
     });
+
     // filter items on button click
     $(".courses__nav-active").on("click", "button", function () {
       var filterValue = $(this).attr("data-filter");
