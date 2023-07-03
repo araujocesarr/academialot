@@ -65,8 +65,8 @@
   --tg-common-color-black: #000;
   --tg-body-color: #39557e;
   --tg-heading-color: #082a5e;
-  --tg-theme-primary: #ccb271;
-  --tg-theme-secondary: #ccb271;
+  --tg-theme-primary: #1ca66b;
+  --tg-theme-secondary: #1ca66b;
   --tg-border-1: #ececec;
   --tg-border-2: #d0dae9;
   --tg-border-3: #e2e2e2;
@@ -987,7 +987,6 @@ textarea {
   }
 }
 .tg-header__style-three .tg-header__area {
-  border-bottom: 1px solid #cdb270;
   padding: 10px 0;
 }
 @media (max-width: 1500px) {
@@ -3354,8 +3353,9 @@ textarea {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  margin-top: 30px;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 5px 35px;
 }
